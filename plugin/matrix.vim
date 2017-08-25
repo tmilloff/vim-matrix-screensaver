@@ -190,7 +190,7 @@ function! s:Init()
    " close all but window 1, which is the new window
    only
 
-   setl bh=delete bt=nofile ma nolist nonu noro noswf tw=0 nowrap
+   setl bh=delete bt=nofile ma nolist nonu noro noswf tw=0 nowrap nonumber norelativenumber
 
    " Set GUI options
    if has('gui')
